@@ -44,14 +44,14 @@ const Wrapper = styled.div`
   background: #fff;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
-  width: 240px;
-  height: 120px;
+  width: 250px;
+  height: 110px;
 
   border-radius: 25px;
   
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 10%;
   transform: translate(-50%, -50%);
   z-index: ${({ length, id }) => length - id};
 

@@ -21,14 +21,15 @@ const Wrapper = styled.main`
 
 const Counter = styled.div`
   position: absolute;
-  center: 10%;
+  top: 1%;
+  left: 50%;
   text-align: center;
   transform: translateX(-50%);
 `;
 
 const Buttons = styled.div`
   position: absolute;
-  bottom: 55%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
 
@@ -111,6 +112,7 @@ class App extends React.Component {
             isNo={this.isNo(id)}
           />
         ))}
+        <Counter>Question: </Counter>
         <Buttons>
           <button onClick={this.no}>No</button>
           <button onClick={this.yes}>Yes</button>
